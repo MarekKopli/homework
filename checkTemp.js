@@ -5,13 +5,13 @@ liiga kuum +1
 function checkTemp(temp) {
 
 
-if(temp<20){
+if(temp<21){
 console.log("liiga"+" "+"külm");
 return -1;
-}if(temp>40){
+}if(temp>41){
 console.log("liiga kuum");
 return +1;
-}else if(temp>20 && temp<=40)
+}else if(temp>21 && temp<=41)
 console.log("Väga hea")
 return 0;
 
