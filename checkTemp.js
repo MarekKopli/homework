@@ -2,8 +2,8 @@
 okei 21-40 0
 liiga kuum +1
 */
-function checkTemp() {
-  let temp=50
+function checkTemp(temp) {
+
 
 if(temp<20){
 console.log("liiga"+" "+"külm");
