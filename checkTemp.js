@@ -11,7 +11,7 @@ return -1;
 }if(temp=>41){
 console.log("liiga kuum");
 return +1;
-}else if(temp>20 && temp<=41)
+}else if(temp>20 && temp<41)
 console.log("Väga hea")
 return 0;
 
