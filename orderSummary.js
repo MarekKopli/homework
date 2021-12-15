@@ -5,4 +5,4 @@ tellimus.rows.forEach((row) => {
 });
 console.log("Summa:", sum);
 for(let toode of tellimus.rows)
-    console.log('nimi '+toode.name+',hind  '+toode.price+',kogus  '+toode.amount)
+    console.log(' nimi '+toode.name+', hind  '+toode.price+', kogus  '+toode.amount)
